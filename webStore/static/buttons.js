@@ -3,6 +3,8 @@ Vue.component('nav-buttons', {
     `<div class="buttons">
         <a href="/">Главная</a>
         <a href="/products">Ассортимент</a>
+        <a href="/orders">Заказы</a>
+        <a href="/Account">Мой аккаунт</a>
     </div>`
 })
 
