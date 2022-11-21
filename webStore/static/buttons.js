@@ -1,10 +1,10 @@
 Vue.component('nav-buttons', {
     template:
     `<div class="buttons">
-        <a href="/">Главная</a>
-        <a href="/products">Ассортимент</a>
-        <a href="/orders">Заказы</a>
-        <a href="/Account">Мой аккаунт</a>
+        <a href="/" class="btn btn-dark">Главная</a>
+        <a href="/products" class="btn btn-dark">Ассортимент</a>
+        <a href="/orders" class="btn btn-dark">Заказы</a>
+        <a href="/Account" class="btn btn-dark">Мой аккаунт</a>
     </div>`
 })
 

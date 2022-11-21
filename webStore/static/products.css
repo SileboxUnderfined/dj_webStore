@@ -1,0 +1,18 @@
+#products {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.product {
+    border-style: solid;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    word-break: break-all;
+    transition: box-shadow 0.05s linear;
+}
+
+.product:hover {
+    box-shadow: 5px 2px 5px black;
+}

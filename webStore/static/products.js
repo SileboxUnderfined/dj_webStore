@@ -1,11 +1,13 @@
 Vue.component('product',{
     props: ['name','description','price','type'],
-    template: `<div class="product">
-        <p>Наименование: {{ name }}</p>
-        <p>Описание: {{ description }}</p>
-        <p>Категория: {{ type }}</p>
-        <p>Цена: {{ price }}</p>
-    </div>`
+    template: `
+        <div class="product">
+            <p>Наименование: {{ name }}</p>
+            <p>Описание: {{ description }}</p>
+            <p>Категория: {{ type }}</p>
+            <p>Цена: {{ price }}</p>
+            <a href="/buy" class="btn btn-success">Купить</a>
+        </div>`
 })
 
 new Vue({
